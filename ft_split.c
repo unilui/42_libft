@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: lufelip2 <lufelip2@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 15:32:01 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:56:33 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/01 05:07:06 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ static char	*new_word(char const *str, char sep)
 	word[letters--] = '\0';
 	while (letters >= 0)
 		word[letters--] = str[offset - reverse++];
-	if (!str[offset])
+	if (!str[offset + 1])
 		offset = 0;
 	return (word);
 }
