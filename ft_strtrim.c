@@ -6,13 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 14:41:44 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:54:32 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:43:31 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Allocates and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.
+/*
+
+Allocates and returns a copy of ’s1’ with the characters specified in ’set’
+removed from the beginning and the end of the string.
+
+*/
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

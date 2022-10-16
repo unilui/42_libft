@@ -6,13 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 15:33:07 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:54:21 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:42:01 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Allocates and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
+/*
+
+Allocates and returns a new string, which is the result of
+the concatenation of ’s1’ and ’s2’.
+
+*/
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

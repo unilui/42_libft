@@ -6,13 +6,17 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 17:08:29 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 19:03:55 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:40:32 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Sorts an array of integers by ascending order.
+/*
+
+Sorts an array of integers by ascending order.
+
+*/
 
 void	ft_sort_int_tab(int *tab, int size)
 {

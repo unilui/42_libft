@@ -6,13 +6,17 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 15:48:23 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:27:31 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:37:22 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Checks for an alphabetic character.
+/*
+
+Checks for an alphabetic character.
+
+*/
 
 int	ft_isalpha(int c)
 {

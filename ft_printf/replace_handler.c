@@ -6,14 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/20 18:27:42 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 19:12:18 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:47:09 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include "ft_printf.h"
 
-// Manages when a given character should be replaced or not.
+/*
+
+Manages when a given character should be replaced or not.
+
+*/
 
 void	replace_handler(t_str *str)
 {

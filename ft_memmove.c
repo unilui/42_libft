@@ -6,13 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 20:09:32 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:46:17 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:39:28 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Copies n bytes from memory area src to memory area dest. The two strings may overlap; the copy is always done in a non-destructive manner.
+/*
+
+Copies n bytes from memory area src to memory area dest. The two strings may
+overlap; the copy is always done in a non-destructive manner.
+
+*/
 
 void	*ft_memmove(void *dst, const void *src, size_t n)
 {

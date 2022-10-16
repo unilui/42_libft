@@ -3,16 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lufelip2 <lufelip2@student.42sp.org.br     +#+  +:+       +#+        */
+/*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 15:32:01 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/10/01 05:52:17 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:40:42 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Allocates and returns an array of strings obtained by splitting ’str’ using the character ’sep’ as a delimiter.
+/*
+
+Allocates and returns an array of strings obtained by splitting ’str’ using the
+character ’sep’ as a delimiter.
+
+*/
 
 static int	word_count(char const *str, char sep)
 {

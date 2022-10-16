@@ -6,13 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 18:50:27 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:44:53 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:45:51 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Fills the first n bytes of the memory area pointed to by s with the constant byte c
+/*
+
+Fills the first n bytes of the memory area pointed to by s with
+the constant byte c
+
+*/
 
 void	*ft_memset(void *s, int c, size_t n)
 {

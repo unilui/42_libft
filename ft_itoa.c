@@ -6,13 +6,17 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 15:28:00 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:59:28 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:45:26 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Returns the absolute value of 'nbr'. '-1' becomes '1'.
+/*
+
+Returns the absolute value of 'nbr'. '-1' becomes '1'.
+
+*/
 
 static int	ft_abs(int nbr)
 {
@@ -21,7 +25,12 @@ static int	ft_abs(int nbr)
 	return (nbr);
 }
 
-// Allocates and returns a string representing the integer received as an argument. Negative numbers must be handled.
+/*
+
+Allocates and returns a string representing the integer received as an
+argument. Negative numbers must be handled.
+
+*/
 
 char	*ft_itoa(int n)
 {

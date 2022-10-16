@@ -6,14 +6,19 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/22 02:54:44 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 19:09:18 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:46:53 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include "ft_printf.h"
 
-// Outputs the unsigned int 'nbr' to the standard output in hexadecimal format and returns de amount of digits outputted.
+/*
+
+Outputs the unsigned int 'nbr' to the standard output in hexadecimal format and
+returns de amount of digits outputted.
+
+*/
 
 int	ft_put_x_nbr(unsigned int nbr, char chr)
 {

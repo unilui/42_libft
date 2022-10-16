@@ -6,7 +6,7 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/11 21:26:01 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 19:02:36 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:44:24 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,11 @@ static t_file	*add_fd(t_file **head, int fd);
 static char		*delete_fd(t_file **head, int fd);
 static char		*get_line(t_file **head, t_file *file);
 
-//Returns a line read from a file descriptor (fd).
+/*
+
+Returns a line read from a file descriptor (fd).
+
+*/
 
 char	*get_next_line(int fd)
 {

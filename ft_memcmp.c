@@ -6,13 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/02 21:06:41 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:47:06 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:39:10 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Compares the first n bytes (each interpreted as unsigned char) of the memory areas s1 and s2.
+/*
+
+Compares the first n bytes (each interpreted as unsigned char) of the memory
+areas s1 and s2.
+
+*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

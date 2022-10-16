@@ -6,7 +6,7 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/03 21:05:25 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:52:46 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:37:31 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,12 @@ static int	is_space(char c)
 		|| c == '\r');
 }
 
-// Converts the initial portion of the string pointed to by str to int representation and returns the int.
+/*
+
+Converts the initial portion of the string pointed to by str to int
+representation and returns the int.
+
+*/
 
 long	ft_atoi(const char *nptr)
 {

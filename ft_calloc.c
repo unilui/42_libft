@@ -6,13 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/05 20:21:25 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 18:53:06 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:37:41 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory. The memory is set to zero.
+/*
+
+Allocates memory for an array of nmemb elements of size bytes each and
+returns a pointer to the allocated memory. The memory is set to zero.
+
+*/
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

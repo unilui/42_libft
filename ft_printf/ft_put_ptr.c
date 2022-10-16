@@ -6,14 +6,19 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/27 17:49:46 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 19:07:12 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:46:33 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include "ft_printf.h"
 
-// Outputs the pointer 'ptr' to the standard output in hexadecimal format and returns de amount of digits outputted.
+/*
+
+Outputs the pointer 'ptr' to the standard output in hexadecimal format and
+returns de amount of digits outputted.
+
+*/
 
 int	ft_put_ptr(size_t ptr, char chr)
 {

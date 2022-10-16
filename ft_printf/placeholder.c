@@ -6,14 +6,18 @@
 /*   By: lufelip2 <lufelip2@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/20 17:43:43 by lufelip2          #+#    #+#             */
-/*   Updated: 2022/09/15 19:10:26 by lufelip2         ###   ########.fr       */
+/*   Updated: 2022/10/16 19:46:59 by lufelip2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include "ft_printf.h"
 
-// Returns a function that replaces the given character 'placeholder'.
+/*
+
+Returns a function that replaces the given character 'placeholder'.
+
+*/
 
 t_replace	placeholder(char placeholder)
 {
